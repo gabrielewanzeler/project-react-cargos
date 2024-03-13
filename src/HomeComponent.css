@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 172, 172);
+    color: white;
+}
+
+#inputForm {
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-color: #3a3a3a;
+    border: 2px solid hsl(0, 0%, 22%);
+    border-radius: 7px;
+    width: 680px;
+    margin-left: 560px;
+
+}
+
+#inputForm .tabela{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #474747;
+    width: 550px;
+    margin-top: 18px;
+    border: 2px solid #383838;
+    border-radius: 7px;
+    margin-left: 68px;
+    display: flex;
+}
+
+#inputForm .tabela h2{
+    margin-top: 10px;
+}
+
+#inputForm .tabela table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+#inputForm .tabela table th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#inputForm .tabela table td{
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input[type="text"],
+input[type="number"] {
+    font-size: 17px;
+    width: 350px;
+    padding: 4px;
+    border-radius: 8px;
+    border: #3a3a3a;
+}
+.container{
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 16px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output {
+    border: 3px solid #3a3a3a;
+    padding: 8px;
+    background-color: #4e4e4e;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 800px;
+}
+
+#dadosColetados{
+    border: 3px solid #3a3a3a;
+    padding: 10px;
+    background-color: #4e4e4e;
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.two{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 600px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.two .bt{
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    background-color: #2d5a2e;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    margin-bottom: 90px;
+    border-radius: 8px;
+}
+
+.bt:hover {
+    background-color: #3b7a3e;
+}
+
+.hide {
+    display: none;
+}

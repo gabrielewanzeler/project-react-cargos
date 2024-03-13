@@ -1,0 +1,21 @@
+.header-container {
+  background-color: rgb(29, 29, 29);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.main-title {
+  color: rgb(255, 255, 255);
+}
+
+.header-container img {
+  width: 50px;
+  height: auto;
+}

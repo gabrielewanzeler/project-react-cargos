@@ -1,0 +1,81 @@
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #414141;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+
+}
+
+.formLogin h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.1em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 13px;
+    color: #c0c0c0;
+    margin-bottom: 30px;
+    margin-top: 12px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.formLogin input:focus {
+    border: 1.5px solid #33af48;
+}
+
+.formLogin label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.formLogin input[type="text"],
+input[type="password"] {
+    padding: 9px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #316333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #459649;
+}
+
+#loginMessage {
+    text-align: center;
+    margin-top: 14px;
+    color: #db7070;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
